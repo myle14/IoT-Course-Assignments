@@ -4,9 +4,9 @@ Kho lưu trữ chứa mã nguồn, tệp cấu hình, firmware, kịch bản mô
 
 ---
 
-### Hướng dẫn đồng bộ thư mục vào máy ảo Contiki
+### I. Hướng dẫn đồng bộ thư mục vào máy ảo Contiki
 
-Để hệ thống build (Makefile.include) nhận đúng đường dẫn thư viện, copy các thư mục bài làm vào đường dẫn tương ứng trong thư mục 'contiki':
+* Để hệ thống build (Makefile.include) nhận đúng đường dẫn thư viện, copy các thư mục bài làm vào đường dẫn tương ứng trong thư mục 'contiki':
 
 1. **Assignment 1**
 Tạo thư mục 'my-assignments' trong thư mục:       
@@ -38,9 +38,13 @@ Copy toàn bộ tệp trong thư mục 'assignment6/' vào thư mục:
 
 ---
 
-### Hướng dẫn biên dịch và mô phỏng trên Cooja
+### II. Hướng dẫn biên dịch và mô phỏng trên Cooja
 
-Mỗi bài tập đã được biên dịch sẵn tệp nhị phân '.sky'. Có thể nạp trực tiếp vào Cooja Simulator hoặc biên dịch lại bằng dòng lệnh Terminal:
+**Sử dụng tệp mô phỏng Cooja ('.csc'):**
+     * Thư mục bài làm đã bao gồm tệp cấu hình mô phỏng sẵn (ví dụ: 'assignment6.csc').
+     * Để chạy mô phỏng mà không cần phải Add motes hay cấu hình lại từ đầu.
+
+* Mỗi bài tập đã được biên dịch sẵn tệp nhị phân '.sky'. Có thể nạp trực tiếp vào Cooja Simulator hoặc biên dịch lại bằng dòng lệnh Terminal:
 
 1. **Assignment 1**
    cd ~/contiki/examples/my-assignments
